@@ -13,6 +13,7 @@ class App extends React.Component<Props, State> {
     render() {
         return (
             <div className="App">
+                <h1 className="subcontent">Tower Defense Enemy Route Generator (<a href="https://github.com/austinmilt/tower-defense-route-gen">GitHub</a>)</h1>
                 <Controls/>
                 <DisplayGrid/>
             </div>

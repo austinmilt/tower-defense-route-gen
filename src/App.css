@@ -5,3 +5,10 @@ body {
     flex-direction: column;
     align-items: left;
 }
+
+.subcontent {
+    text-align: center;
+    vertical-align: center;
+    width: 100%; 
+    position: "relative"
+}
