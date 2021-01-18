@@ -1,0 +1,64 @@
+.cell-label {
+    position: absolute;
+    color: #007DA7;
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 40%;
+}
+
+.cell-container {
+    position: absolute;
+    height: auto;
+}
+
+.cell-svg-route path {
+    fill: #001d27;
+    stroke: #E1C340;
+    animation: pop-cell-move 1s;
+}
+
+@keyframes pop-cell-move {
+    0% {
+        fill: #007da7;
+    }
+    10% {
+        fill: #007da7;
+    }
+    100% {
+        fill: #001d27;
+    }
+}
+
+.cell-svg-base path {
+    fill: #004359;
+    stroke: #007da7;
+}
+
+.cell-svg-exit path {
+    fill: #74af54;
+    stroke: #204b09;
+}
+
+.cell-svg-entrance path {
+    fill: #9956b6;
+    stroke: #8d22bb;
+}
+
+.cell-svg-not-traversable path {
+    fill: #232e35;
+    stroke: #445d65;
+}
+
+
+.no-interactions {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}

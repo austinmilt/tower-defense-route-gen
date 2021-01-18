@@ -1,0 +1,95 @@
+.slider-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/* http://danielstern.ca/range.css/#/ */
+
+input[type=range] {
+    margin: 3.8px 0;
+    background-color: transparent;
+    -webkit-appearance: none;
+}
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    background: #004359;
+    border: 0.2px solid #010101;
+    border-radius: 1.3px;
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+}
+input[type=range]::-webkit-slider-thumb {
+    margin-top: -4px;
+    width: 16px;
+    height: 16px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #005672;
+}
+input[type=range]::-moz-range-track {
+    background: #004359;
+    border: 0.2px solid #010101;
+    border-radius: 1.3px;
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+}
+input[type=range]::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type=range]::-ms-track {
+    background: transparent;
+    border-color: transparent;
+    border-width: 4.7px 0;
+    color: transparent;
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+}
+input[type=range]::-ms-fill-lower {
+    background: #00303f;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+}
+input[type=range]::-ms-fill-upper {
+    background: #004359;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+}
+input[type=range]::-ms-thumb {
+    width: 16px;
+    height: 16px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+input[type=range]:focus::-ms-fill-lower {
+    background: #004359;
+}
+input[type=range]:focus::-ms-fill-upper {
+    background: #005672;
+}
+@supports (-ms-ime-align:auto) {
+/* Pre-Chromium Edge only styles, selector taken from hhttps://stackoverflow.com/a/32202953/7077589 */
+input[type=range] {
+    margin: 0;
+    /*Edge starts the margin from the thumb, not the track as other browsers do*/
+}
+}
