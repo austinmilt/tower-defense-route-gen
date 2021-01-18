@@ -1,0 +1,17 @@
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 103.22301 119.19167"
+   height="100%"
+   width="100%"
+   position="absolute">
+  <path
+     className="cell-svg"
+     d="M 101.89307,88.635079 51.60447,117.66921 1.3158779,88.635079 1.3158789,30.566814 51.604471,1.5326825 101.89307,30.566815 Z"
+     id="hexagon"
+     fill="current"
+     stroke="current"
+     strokewidth="2.5"
+     strokemiterlimit="4"/>
+</svg>

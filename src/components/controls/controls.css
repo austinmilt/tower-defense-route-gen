@@ -1,0 +1,36 @@
+.controls-outer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: baseline;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.controls-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    border-color: gray;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #001D27;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+.controls-algorithm {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.control {
+    margin-right: 1em;
+}
