@@ -35,3 +35,6 @@ There are two ways to configure the entrances and exits used for routes. First i
 
 ## Technology
 This project uses React with Typescript and vanilla CSS for generating the UI.
+
+## Updating Github Pages Page
+```npm run build```
